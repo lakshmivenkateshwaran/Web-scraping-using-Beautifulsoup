@@ -1,4 +1,5 @@
-#Code to retrive the top 250 movies from IMDB Website
+#Code to retrive the top 250 movies from IMDB Website using beautifulsoup
+
 from bs4 import BeautifulSoup
 import requests
 import openpyxl
@@ -36,6 +37,4 @@ excel.save('IMDB Top Rated Movies.xlsx')
 # print(names)
 # name = movie.find('a', class_ = "ipc-title-link-wrapper").h3.text()
 # print(len(name))
-
-
 # print(len(movies))
